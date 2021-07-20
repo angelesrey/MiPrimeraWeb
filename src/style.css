@@ -1,13 +1,82 @@
+/*Normalizando CSS.*/
 * {
-    border: 0px;
     margin: 0px;
-    box-sizing: 0px;
     padding: 0px;
+    box-sizing: border-box;
+}
+/*Armando estructura de cajas*/
+body {
+    border: 3px groove red;
+    margin: 5px;
+    padding: 10px;
+}
+/*Estilos de header*/
+header {
+    border: 3px solid blue;
+    margin-bottom 10px;
+    padding:5px;
 }
 
-body {
-    /*font-family: 'Qahiri', sans-serif;/*
-    */
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size:medium;
+/*selector de etiquetas*/
+nav {
+    border: 3px solid green;
+    padding:10px;
+}
+/*Selector de clase lleva siempre un . (punto) antes del nombe de la clase*/
+.nav_Header {
+    border: 2px dashed yellow;
+    padding: 25px;
+}
 
+.list-item_Header {
+    border: 2px solid violet;
+    padding: 10px;
+}
+
+.link_Header{
+    border: 1px solid purple;
+    padding: 5px;
+}
+
+/*Estilos del contenido principal (main)*/
+/*Selector de Id lleva siempre # (Almohadilla) antes del nombre del Id.*/
+#mainContent {
+    border: 2px solid black;   
+}
+
+article {
+    border: 3px dashed plum;
+    padding: 3px;
+}
+
+h2 {
+    border: 3px groove blueviolet;
+    padding: 5px;
+}
+
+#pMain {
+    border: 5px double goldenrod;
+    padding: 5px;
+}
+img{
+    border: 6px groove firebrick;
+    padding: 10px;
+}
+h3 {
+    border: 5px groove lightcoral;
+    padding: 5px;
+}
+aside {
+    border: 3px dotted indianred;
+    padding: 5px;
+}
+ul li {
+    border:2px solid rgb(223, 159, 191);
+    padding:5px;
+}
+
+footer {
+    border: 3px solid indigo;
+    padding: 5px;
+}
+    
